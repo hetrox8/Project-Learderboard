@@ -4,8 +4,7 @@ body {
 }
 
 *{
-    font-family: 'Lato', sans-serif;
-font-family: 'Raleway', sans-serif;
+font-family: Raleway, sans-serif;
 }
 
 
@@ -18,18 +17,18 @@ h1,h2,h3 {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 .item-1 , .item-2 {
    width: 400px;
 }
+
 .sm-ctn {
     display: flex;
     gap: 40px;
     justify-content: space-around;
-  align-items: center;
+    align-items: center;
 }
 
 input {
