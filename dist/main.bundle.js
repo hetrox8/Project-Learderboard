@@ -16,7 +16,7 @@
   \**********************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\r\n    width: 100%;\r\n    height: 100vh;\r\n}\r\n\r\n*{\r\nfont-family: Raleway, sans-serif;\r\n}\r\n\r\n\r\nh1,h2,h3 {\r\n    font-size: 32px;\r\n    font-weight: 700;\r\n}\r\n\r\n.container {\r\n    display: flex;\r\n    flex-direction: row;\r\n    gap: 50px;\r\n    width: 100%;\r\n    \r\n}\r\n\r\n.item-1 , .item-2 {\r\n   width: 400px;\r\n}\r\n\r\n.sm-ctn {\r\n    display: flex;\r\n    gap: 40px;\r\n    justify-content: space-around;\r\n  align-items: center;\r\n}\r\n\r\ninput {\r\n    display: block;\r\n    width: 91%;\r\n    padding: 10px;\r\n    margin: 5%;\r\n    border: 1px solid #ccc;\r\n}\r\n\r\ninput::placeholder {\r\n    color: #000;\r\n    font-size: 16px;\r\n    text-align: left;\r\n}\r\n\r\nul {\r\n    padding: 0;\r\n    margin: 0;\r\n    border: 2px  solid #000;\r\n}\r\n\r\nli {\r\n    font-size: 19px;\r\n    font-weight: 400;\r\n    list-style: none;\r\n    padding: 10px;\r\n    border-bottom: 1px solid #ccc;\r\n}\r\n\r\n  \r\n  li:last-child {\r\n    border-bottom: none;\r\n  }\r\n\r\n  li:nth-child(odd){\r\n    background-color: #e5e5e5;\r\n  }\r\n\r\nbutton {\r\n    background-color: #e5e5e5;\r\n    height: 30px;\r\n    width: 40%;\r\n\r\n}\r\n\r\n.btn-2 {\r\n    float: right;\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://project-learderboard/./styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\r\n  width: 100%;\r\n  height: 100vh;\r\n}\r\n\r\n/* Fix for stylelint */\r\n* {\r\n  font-family: Raleway, sans-serif;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3 {\r\n  font-size: 32px;\r\n  font-weight: 700;\r\n}\r\n\r\n.container {\r\n  display: flex;\r\n  flex-direction: row;\r\n  gap: 50px;\r\n  width: 100%;\r\n}\r\n\r\n.item-1,\r\n.item-2 {\r\n  width: 400px;\r\n}\r\n\r\n.sm-ctn {\r\n  display: flex;\r\n  gap: 40px;\r\n  justify-content: space-around;\r\n  align-items: center;\r\n}\r\n\r\ninput {\r\n  display: block;\r\n  width: 91%;\r\n  padding: 10px;\r\n  margin: 5%;\r\n  border: 1px solid #ccc;\r\n}\r\n\r\n/* Fix for stylelint */\r\ninput::placeholder {\r\n  color: #000;\r\n  font-size: 16px;\r\n  text-align: left;\r\n}\r\n\r\nul {\r\n  padding: 0;\r\n  margin: 0;\r\n  border: 2px solid #000;\r\n}\r\n\r\nli {\r\n  font-size: 19px;\r\n  font-weight: 400;\r\n  list-style: none;\r\n  padding: 10px;\r\n  border-bottom: 1px solid #ccc;\r\n}\r\n\r\nli:last-child {\r\n  border-bottom: none;\r\n}\r\n\r\nli:nth-child(odd) {\r\n  background-color: #e5e5e5;\r\n}\r\n\r\nbutton {\r\n  background-color: #e5e5e5;\r\n  height: 30px;\r\n  width: 40%;\r\n}\r\n\r\n.btn-2 {\r\n  float: right;\r\n}\r\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://project-learderboard/./styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -114,9 +114,9 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /*!********************!*\
   !*** ./scripts.js ***!
   \********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./styles.css\");\n// index.js (your entry file)\n // Replace with the path to your CSS file\n\n\n//# sourceURL=webpack://project-learderboard/./scripts.js?");
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./styles.css\");\n// index.js (your entry file)\n // Replace with the path to your CSS file\n\n const postDataToAPI = async () => {\n    const apiUrl = \"https://us-central1-js-capstone-backend.cloudfunctions.net/api/games\";\n      \n  \n    try {\n      const response = await fetch(apiUrl, {\n        method: \"POST\",\n        headers: {\n          \"Content-Type\": \"application/json\",\n          // Add any other headers required by the API (e.g., authentication tokens).\n        },\n        body: JSON.stringify(data),\n      });\n  \n      if (!response.ok) {\n        throw new Error(\"Network response was not ok\");\n      }\n  \n      const responseData = await response.json();\n      console.log(\"POST request successful!\");\n      console.log(\"Response data:\", responseData);\n    } catch (error) {\n      console.error(\"POST request failed:\", error.message);\n    }\n  }\n  \n  const newGame = {\n    name: \"roblox\",\n};\nconst createGame = () => {\n    const Url_game = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games'\n}\n\nconst response = await fetch(Url_game, {\n    method: 'POST',\n    headers: {\n        'Content-Type': 'application/json',\n    }\n})\n\n  // Call the async function to make the POST request\n  postDataToAPI();\n  \n\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } }, 1);\n\n//# sourceURL=webpack://project-learderboard/./scripts.js?");
 
 /***/ })
 
@@ -147,6 +147,75 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/async module */
+/******/ 	(() => {
+/******/ 		var webpackQueues = typeof Symbol === "function" ? Symbol("webpack queues") : "__webpack_queues__";
+/******/ 		var webpackExports = typeof Symbol === "function" ? Symbol("webpack exports") : "__webpack_exports__";
+/******/ 		var webpackError = typeof Symbol === "function" ? Symbol("webpack error") : "__webpack_error__";
+/******/ 		var resolveQueue = (queue) => {
+/******/ 			if(queue && queue.d < 1) {
+/******/ 				queue.d = 1;
+/******/ 				queue.forEach((fn) => (fn.r--));
+/******/ 				queue.forEach((fn) => (fn.r-- ? fn.r++ : fn()));
+/******/ 			}
+/******/ 		}
+/******/ 		var wrapDeps = (deps) => (deps.map((dep) => {
+/******/ 			if(dep !== null && typeof dep === "object") {
+/******/ 				if(dep[webpackQueues]) return dep;
+/******/ 				if(dep.then) {
+/******/ 					var queue = [];
+/******/ 					queue.d = 0;
+/******/ 					dep.then((r) => {
+/******/ 						obj[webpackExports] = r;
+/******/ 						resolveQueue(queue);
+/******/ 					}, (e) => {
+/******/ 						obj[webpackError] = e;
+/******/ 						resolveQueue(queue);
+/******/ 					});
+/******/ 					var obj = {};
+/******/ 					obj[webpackQueues] = (fn) => (fn(queue));
+/******/ 					return obj;
+/******/ 				}
+/******/ 			}
+/******/ 			var ret = {};
+/******/ 			ret[webpackQueues] = x => {};
+/******/ 			ret[webpackExports] = dep;
+/******/ 			return ret;
+/******/ 		}));
+/******/ 		__webpack_require__.a = (module, body, hasAwait) => {
+/******/ 			var queue;
+/******/ 			hasAwait && ((queue = []).d = -1);
+/******/ 			var depQueues = new Set();
+/******/ 			var exports = module.exports;
+/******/ 			var currentDeps;
+/******/ 			var outerResolve;
+/******/ 			var reject;
+/******/ 			var promise = new Promise((resolve, rej) => {
+/******/ 				reject = rej;
+/******/ 				outerResolve = resolve;
+/******/ 			});
+/******/ 			promise[webpackExports] = exports;
+/******/ 			promise[webpackQueues] = (fn) => (queue && fn(queue), depQueues.forEach(fn), promise["catch"](x => {}));
+/******/ 			module.exports = promise;
+/******/ 			body((deps) => {
+/******/ 				currentDeps = wrapDeps(deps);
+/******/ 				var fn;
+/******/ 				var getResult = () => (currentDeps.map((d) => {
+/******/ 					if(d[webpackError]) throw d[webpackError];
+/******/ 					return d[webpackExports];
+/******/ 				}))
+/******/ 				var promise = new Promise((resolve) => {
+/******/ 					fn = () => (resolve(getResult));
+/******/ 					fn.r = 0;
+/******/ 					var fnQueue = (q) => (q !== queue && !depQueues.has(q) && (depQueues.add(q), q && !q.d && (fn.r++, q.push(fn))));
+/******/ 					currentDeps.map((dep) => (dep[webpackQueues](fnQueue)));
+/******/ 				});
+/******/ 				return fn.r ? promise : getResult();
+/******/ 			}, (err) => ((err ? reject(promise[webpackError] = err) : outerResolve(exports)), resolveQueue(queue)));
+/******/ 			queue && queue.d < 0 && (queue.d = 0);
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
