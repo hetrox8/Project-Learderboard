@@ -1,4 +1,4 @@
-import apiURL from './apiConfig'; // Corrected the import path
+import apiURL from './apiConfig.js'; // Corrected the import path
 
 const createGame = async (gameName) => {
   const response = await fetch(`${apiURL}/games/`, {

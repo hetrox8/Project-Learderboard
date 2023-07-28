@@ -1,6 +1,6 @@
 import './styles.css';
 import display from './modules/display.js';
-import { getAPI, setAPI, createGame } from './modules/API';
+import { getAPI, setAPI } from './modules/API.js'; // Removed createGame import
 
 const initializeGame = async () => {
   const getScore = async () => {
