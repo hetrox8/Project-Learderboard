@@ -29,7 +29,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 LearderBoard <a name="about-project"></a>
 
 Hetroxity academy is an online based computer programming institution . our goal is to provide flexible knowledge that is global
 
@@ -119,7 +119,7 @@ Deploy this project on any web server
 
 - GitHub: [@githubhandle](https://github.com/suleiman)
 - Twitter: [@twitterhandle](https://twitter.com/Asuleiman)
-- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/anshuman-singh-negi-33779a224/)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/suleimangacheru/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
