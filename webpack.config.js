@@ -2,24 +2,21 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
   entry: {
-    index: './scripts.js',
+    index: './src/index.js',
   },
+  mode: 'development',
   devServer: {
-    static: {
-      directory: path.resolve(__dirname, 'src'), // Set the static directory to 'src'
-    },
+    static: './dist',
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html',
+      template: './src/index.html',
     }),
   ],
   output: {
-    filename: 'main.bundle.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
   },
   module: {
     rules: [
@@ -27,10 +24,19 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
-      {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
-      },
     ],
   },
+  optimization: {
+    runtimeChunk: 'single',
+  },
+  resolve: {
+    extensions: ['.ts', '.js'],
+    fallback: {
+      child_process: false,
+      fs: false,
+      os: false,
+      path: false,
+    },
+  },
+
 };
