@@ -1,20 +1,16 @@
-
-
-@keyframes slideIn {
+@keyframes slide-in {
   from {
     transform: translateX(-100%);
   }
+
   to {
     transform: translateX(0);
   }
 }
 
 body {
-  animation: slideIn 1s ease;
-}
-
-body {
-  background-color:#00000057;
+  animation: slide-in 1s ease;
+  background-color: #00000057;
   transition: background-color 0.3s ease;
   color: green;
   width: 100%;
@@ -24,7 +20,6 @@ body {
 body:hover {
   background-color: #10adc2;
 }
-
 
 /* Fix for stylelint */
 * {
