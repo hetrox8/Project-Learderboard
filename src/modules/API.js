@@ -1,5 +1,7 @@
+import apiURL from './apiConfig'; // Corrected the import path
+
 const createGame = async (gameName) => {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+  const response = await fetch(`${apiURL}/games/`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ name: gameName }),
@@ -11,13 +13,13 @@ const createGame = async (gameName) => {
 };
 
 const getAPI = async () => {
-  const data = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/m2U5S10HVbe4Z3PQkXWr/scores/');
+  const data = await fetch(`${apiURL}/scores/`);
   const result = await data.json();
   return result;
 };
 
 const setAPI = async (data) => {
-  const fetchData = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/m2U5S10HVbe4Z3PQkXWr/scores/', {
+  const fetchData = await fetch(`${apiURL}/scores/`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data),

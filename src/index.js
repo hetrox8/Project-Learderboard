@@ -1,10 +1,8 @@
 import './styles.css';
 import display from './modules/display.js';
-import { getAPI, setAPI, createGame } from './modules/API.js';
+import { getAPI, setAPI, createGame } from './modules/API';
 
 const initializeGame = async () => {
-  console.log(await createGame('roblox'));
-
   const getScore = async () => {
     const scores = await getAPI();
     display(scores);
